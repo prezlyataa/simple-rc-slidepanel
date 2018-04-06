@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React from 'react';
 
-const MySuperCoolComponent = ({ children, color }) => (
-    <button style={{ color }}>{children}</button>
-);
+class Test extends React.Component {
+    render() {
+        return (
+            <div>This is so test component!</div>
+        );
+    }
+}
 
-export default MySuperCoolComponent;
+export default Test;
