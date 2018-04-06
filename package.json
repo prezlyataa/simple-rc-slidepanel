@@ -1,6 +1,6 @@
 {
   "name": "prezliata_example_package",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A minimal boilerplate for building a react component for npm, including a demo page.",
   "main": "lib/index.js",
   "scripts": {
