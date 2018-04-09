@@ -1,6 +1,6 @@
 {
-  "name": "prezliata_example_package",
-  "version": "0.0.8",
+  "name": "prezl_lib",
+  "version": "0.0.1",
   "description": "Put a description here",
   "main": "build/index.js",
   "peerDependencies": {
