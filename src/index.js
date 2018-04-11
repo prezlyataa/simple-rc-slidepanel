@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import cx from 'classnames';
-import 'src/slidepanel.css';
+import './slidepanel.css';
 
 class Slidepanel extends Component {
     constructor(props) {

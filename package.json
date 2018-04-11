@@ -9,7 +9,9 @@
   "dependencies": {
     "ajv": "^6.4.0",
     "classnames": "^2.2.5",
+    "css-loader": "^0.28.11",
     "react": "^15.5.4",
+    "style-loader": "^0.20.3",
     "webpack": "^2.6.1"
   },
   "scripts": {
