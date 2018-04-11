@@ -1,0 +1,90 @@
+.slidepanel {
+    position: fixed;
+}
+
+.wrapp_close_btn {
+    position: relative;
+}
+
+.btn_close_panel {
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.25s ease-in-out;
+}
+
+.btn_close_panel:hover {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.btn_close_panel::before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.btn_close_panel::after {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.left {
+    top: 0;
+    left: 0;
+}
+
+.left .wrapp_close_btn .btn_close_panel {
+    right: 10px;
+    top: 10px;
+}
+
+.right {
+    top: 0;
+    right: 0;
+}
+
+.right .wrapp_close_btn .btn_close_panel {
+    left: 10px;
+    top: 10px;
+}
+
+.top {
+    top: 0;
+}
+
+.top .wrapp_close_btn .btn_close_panel {
+    right: 10px;
+    top: 10px;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.bottom .wrapp_close_btn .btn_close_panel {
+    left: 10px;
+    top: 10px;
+}
