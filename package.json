@@ -1,7 +1,7 @@
 {
   "name": "simple-rc-slidepanel",
-  "version": "0.0.1",
-  "description": "Put a description here",
+  "version": "0.0.3",
+  "description": "React slidepanel component",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
@@ -20,6 +20,10 @@
   "author": {
     "name": "Yurii Prezliata",
     "email": "prezliata.yuriy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prezlyataa/RC_SlidePanel_NPM_Package"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
