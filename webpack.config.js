@@ -21,7 +21,8 @@ module.exports = {
                 }
             },
             {
-                test: /\.*css$/,
+                test: /\.css$/,
+                exclude: /(node_modules|bower_components|build)/,
                 use : ExtractTextPlugin.extract({
                     fallback : 'style-loader',
                     use : [
