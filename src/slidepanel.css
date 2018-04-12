@@ -1,3 +1,16 @@
+.slidepanel_wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-timing-function: linear;
+}
+
+.slidepanel_wrapper:hover {
+    cursor: pointer;
+}
+
 .slidepanel {
     position: fixed;
 }
