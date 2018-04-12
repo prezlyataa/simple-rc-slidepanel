@@ -1,12 +1,12 @@
-## simple-rc-slidepanel
+# simple-rc-slidepanel
 
 Accessible and simple Slidepanel component for React.JS
 
-### Instalition
+## Instalition
 
-> $ npm install simple-rc-slidepanel
+    $ npm install simple-rc-slidepanel
 
-### Code example
+## Code example
 
       import React, { Component } from 'react';
       import Slidepanel from 'simple-rc-slidepanel';
@@ -56,10 +56,10 @@ Accessible and simple Slidepanel component for React.JS
 
               return (
                   <div className="app">
-                      <div className="container">
+                      <div>
                           <button
                               className="btn_open"
-                              onClick = {this.openPanel}
+                              onClick = { this.openPanel }
                           >
                               Open left Slidepanel
                           </button>
@@ -73,9 +73,12 @@ Accessible and simple Slidepanel component for React.JS
                           height = { "100%" }
                           bgColor = { "#FFFAF0" }
                       >
-                          <h3 className="title_child_comp">Children element</h3>
+                          <h3>Children element</h3>
                       </Slidepanel>
                   </div>
               );
           }
       }
+
+## Demo
+    https://codesandbox.io/s/kx193k3p37
