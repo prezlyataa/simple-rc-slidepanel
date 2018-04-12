@@ -2,7 +2,7 @@
 
 Accessible and simple Slidepanel component for React.JS
 
-## [Demo](https://codesandbox.io/s/kx193k3p37])
+## [Demo](https://codesandbox.io/s/kx193k3p37)
 
 ## Instalition
 
