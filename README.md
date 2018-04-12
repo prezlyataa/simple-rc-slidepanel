@@ -2,6 +2,8 @@
 
 Accessible and simple Slidepanel component for React.JS
 
+## Demo.(https://codesandbox.io/s/kx193k3p37)
+
 ## Instalition
 
     $ npm install simple-rc-slidepanel
@@ -80,5 +82,3 @@ Accessible and simple Slidepanel component for React.JS
           }
       }
 
-## Demo
-    https://codesandbox.io/s/kx193k3p37
