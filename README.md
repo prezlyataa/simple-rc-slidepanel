@@ -60,12 +60,7 @@ export class App extends Component {
       return (
           <div className="app">
               <div>
-                  <button
-                      className="btn_open"
-                      onClick = { this.openPanel }
-                  >
-                      Open left Slidepanel
-                  </button>
+                  <button onClick = { this.openPanel }>Open left Slidepanel</button>
               </div>
               <Slidepanel
                   setWrapperRef = { this.setWrapperRef }

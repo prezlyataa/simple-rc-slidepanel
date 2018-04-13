@@ -1,6 +1,6 @@
 {
   "name": "simple-rc-slidepanel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React slidepanel component",
   "main": "build/index.js",
   "peerDependencies": {
