@@ -4,18 +4,11 @@
     width: 100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.slidepanel_wrapper:hover {
-    cursor: pointer;
+    z-index: 1;
 }
 
 .slidepanel {
     position: fixed;
-}
-
-.slidepanel:hover {
-    cursor: default;
 }
 
 .wrapp_close_btn {
