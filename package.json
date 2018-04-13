@@ -1,6 +1,6 @@
 {
   "name": "simple-rc-slidepanel",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "React slidepanel component",
   "main": "build/index.js",
   "peerDependencies": {
@@ -27,6 +27,17 @@
     "type": "git",
     "url": "https://github.com/prezlyataa/simple-rc-slidepanel"
   },
+  "keywords": [
+    "react",
+    "rc",
+    "panel",
+    "slidepanel",
+    "react-slide-panel",
+    "simple-rc-slidepanel",
+    "sidebar",
+    "react-sidebar",
+    "sidepanel"
+  ],
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",

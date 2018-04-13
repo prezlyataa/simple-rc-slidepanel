@@ -1,14 +1,44 @@
 # simple-rc-slidepanel
 
-Accessible and simple Slidepanel component for React.JS
+Accessible and simple slide panel component for React.JS
 
-## [Demo](https://codesandbox.io/s/kx193k3p37)
 
-## Instalition
+### Instalition
 
     $ npm install simple-rc-slidepanel
 
-## Code example
+### Demo
+You can find demo [here](https://codesandbox.io/s/kx193k3p37).
+
+### Usage
+```js
+<Slidepanel
+	setWrapperRef = { this.setWrapperRef }
+	closePanel = { this.closePanel }
+	isPanelOpen = { isPanelOpen }
+	left
+	width = { "35%" }
+	height = { "100%" }
+	bgColor = { "#FFFAF0" }
+>
+	<h3>Children element</h3>
+</Slidepanel>
+```
+
+### Props
+
+| Name        | Type            | Description
+| ----------- |:---------------:|---------------|
+| left        | -               | panel position
+| right       | -               | panel position
+| top         | -               | panel position
+| bottom      | -               | panel position
+| width       | string          | panel width
+| height      | string          | panel height
+| bgColor     | string          | panel background color
+
+
+### Code example
 
 ```javascript
 import React, { Component } from 'react';
