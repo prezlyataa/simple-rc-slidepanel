@@ -10,6 +10,7 @@ Accessible and simple Slidepanel component for React.JS
 
 ## Code example
 
+    ```
       import React, { Component } from 'react';
       import Slidepanel from 'simple-rc-slidepanel';
 
@@ -81,3 +82,4 @@ Accessible and simple Slidepanel component for React.JS
               );
           }
       }
+    ```
