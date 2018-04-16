@@ -2,6 +2,13 @@
 
 Accessible and simple slide panel component for React.JS
 
+### Table of Contents
+
+* [Instalition](https://www.npmjs.com/package/simple-rc-slidepanel#instalition)
+* [Demo](https://www.npmjs.com/package/simple-rc-slidepanel#demo)
+* [Usage](https://www.npmjs.com/package/simple-rc-slidepanel#usage)
+* [Props](https://www.npmjs.com/package/simple-rc-slidepanel#props)
+* [Code example](https://www.npmjs.com/package/simple-rc-slidepanel#code-example)
 
 ### Instalition
 
